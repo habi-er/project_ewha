@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="description" content="포트폴리오" />
+      <meta name="keywords" content="html5, css3 ,javascript" />
+      <meta name="author" content="김기철, 이원철, 정종우, 추경" />
+      <meta name="robots" content="index,follow" />
+      <!-- <meta property="og:url" content="수정해야함" /> -->
+      <meta property="og:title" content="세미콜론의 대학" />
+      <meta property="og:type" content="website" />
+      <meta property="og:image:width" content="400" />
+      <meta property="og:image:height" content="210" />
+      <!-- <meta property="og:image" content="이미지경로" /> -->
+      <!-- <meta property="og:description" content="" /> -->
+
+      <title>로그인</title>
+      <link rel="stylesheet" href="../css/reset.css" />
+      <link rel="stylesheet" href="../css/style.css" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css" />
+      <!-- <link rel="shortcut icon" href="images/favicon.ico" /> -->
+   </head>
+   <body>
+      <p id="skipNav"><a href="#content">본문바로가기</a></p>
+      <div id="wrap">
+         <header id="header" class="header-login"></header>
+         <!-- //header -->
+         <main id="container" class="login-page">
+            <section id="content">
+               <div class="con-box login">
+                  <div class="inner">
+                     <div class="login-text">
+                        <a href="../index.html"
+                           ><img src="../images/login_and_signup/ewha_symbol.png" alt="이화여자대학교"
+                        /></a>
+                        <h2>EWHA LOGIN</h2>
+                     </div>
+                     <div class="login-wrap">
+                        <form action="#" method="post" name="login-form" class="login-form">
+                           <fieldset>
+                              <legend>회원 정보 입력</legend>
+                              <table class="login-table">
+                                 <caption>
+                                    회원 정보 입력
+                                 </caption>
+                                 <colgroup>
+                                    <col class="w1" />
+                                    <col class="w2" />
+                                    <col class="w3" />
+                                 </colgroup>
+                                 <tbody>
+                                    <tr>
+                                       <th scope="row">
+                                          <label for="user-id">ID</label>
+                                       </th>
+                                       <td>
+                                          <input
+                                             type="text"
+                                             id="user-id"
+                                             title="아이디를 입력하세요"
+                                             placeholder="Enter your ID"
+                                             class="w340" />
+                                       </td>
+                                       <td rowspan="2">
+                                          <button type="button" class="w132">Log in</button>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <th scope="row">
+                                          <label for="user-pw">Password</label>
+                                       </th>
+                                       <td>
+                                          <input
+                                             type="password"
+                                             id="user-pw"
+                                             title="비밀번호를 입력하세요"
+                                             placeholder="Enter your Password"
+                                             class="w340" />
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <th></th>
+                                       <td>
+                                          <input type="checkbox" name="save-id" id="save-id" />
+                                          <label for="save-id">Save ID</label>
+                                          <a href="#">Find ID/Password</a>
+                                          <a href="../login_and_signup/signup.html" target="_blank">회원가입</a>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </fieldset>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </main>
+         <footer id="footer" class="footer-login">
+            <div class="inner">
+               <ul>
+                  <li>03760 서울특별시 서대문구 이화여대길 52 이화여자대학교 <span>T. 02-3277-2114</span></li>
+                  <li>COPYRIGHT 2020 BY EWHA WOMANS UNIVERSITY. ALL RIGHTS RESERVED.</li>
+               </ul>
+            </div>
+         </footer>
+      </div>
+      <script src="../js/main.js"></script>
+   </body>
+</html>
